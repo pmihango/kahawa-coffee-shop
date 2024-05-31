@@ -62,7 +62,7 @@ body{
 
 .header .navbar a{
     margin: 0 1rem;
-    font-size: 1.6rem;
+    font-size: 1rem;
     color: #fff;
 }
 
@@ -75,7 +75,7 @@ body{
 .header .icons div{
     color: #fff;
     cursor: pointer;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin-left: 2rem;
 }
 
@@ -83,6 +83,39 @@ body{
     color: var(--main-color);
 }
 
-#menu-btn{
+.menu-btn{
     display: none;
+}
+
+.header .search-form{
+    position: absolute;
+    top: 115%;
+    right: 7%;
+    background: #fff;
+    width: 50rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    transform: scale(0);
+    transform-origin: top;
+}
+
+.header .search-form input{
+    height: 100%;
+    width: 100%;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+    padding: 1rem;
+}
+
+.header .search-form label{
+    cursor: pointer;
+    font-size: 2.2rem;
+    margin-right: 1.5rem;
+    color: var(--black);
+}
+
+.header .search-form label:hover{
+
 }
