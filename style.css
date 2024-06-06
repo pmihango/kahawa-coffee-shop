@@ -41,6 +41,10 @@ html::-bebkit-scrollbar-thumb{
 body{
     background: var(--bg);
 }
+section{
+    padding: 2rem 7%;
+}
+
 .btn{
     margin-top: 1rem;
     display: inline-block;
@@ -198,6 +202,9 @@ html{
 .header{
     padding: 1.5rem 2rem;
 }
+section{
+    padding: 2rem;
+}
 }
 
 @media (max-width:768px){
@@ -229,7 +236,17 @@ html{
         width: 90%;
         right: 2rem;
     }
-
+    .home{
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+    .home .content h3{
+        font-size: 6rem;
+    }
+    .home .content p{
+        font-size: 1.5rem;
+    }
 }
 @media (max-width:450px){
     html{
@@ -238,10 +255,30 @@ html{
     
     }
 
-
-
-
-
+.home{
+    min-height: 120vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/coffee-cover.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home .content{
+    max-width: 40rem;
+}
+.home .content h3{
+    font-size: 4rem;
+    text-transform: none;
+    color: #fff;
+}
+.home .content p{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    text-transform: none;
+    color: #eee;
+}
 
 
 
