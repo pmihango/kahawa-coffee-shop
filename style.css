@@ -274,10 +274,10 @@ section{
     background-position: center;
 }
 .home .content{
-    max-width: 40rem;
+    max-width: 30rem;
 }
 .home .content h3{
-    font-size: 4rem;
+    font-size: 3rem;
     text-transform: none;
     color: #fff;
 }
