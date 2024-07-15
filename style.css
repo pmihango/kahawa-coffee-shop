@@ -501,5 +501,29 @@ section{
 }
 
 .blogs .box-container .box{
-    
+    border: var(--border);
+}
+.blogs .box-container .image{
+    height: 25rem;
+    overflow: hidden;
+    word-wrap: 100%;
+}
+.blogs .box-container .image img{
+    height: 100%;
+    object-fit: cover;
+    word-wrap: 100%;
+}
+.blogs .box-container .box:hover .image img{
+    transform: scale(1.2);
+}
+.blogs .box-container .box .content{
+    padding: 2rem;
+}
+.blogs .box-container .box .content .title{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+.blogs .box-container .box .content .title:hover{
+    color:var(--main-color) ;
 }
