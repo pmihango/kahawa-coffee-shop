@@ -269,12 +269,14 @@ section{
     min-height: 120vh;
     display: flex;
     align-items: center;
-    background: url(../images/coffee-cover.png) no-repeat;
+    background: url(../images/offee-cover.png) no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
 .home .content{
     max-width: 30rem;
+    flex-wrap: wrap;
 }
 .home .content h3{
     font-size: 3rem;
@@ -294,7 +296,7 @@ section{
     display: flex;
     align-items: center;
     background: var(--black);
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 .about .row .image{
     flex: 1 1 45rem;
@@ -559,5 +561,29 @@ section{
     border-radius: 50%;
 }
 .footer .share a:hover{
-    
+    background-color: var(--main-color);
+}
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+.footer .links a{
+    padding: .7rem 2rem;
+    color: #fff;
+    border: var(--border);
+    font-size: 1rem;
+}
+.footer .links a:hover{
+    background-color: var(--main-color);
+}
+.footer .credit{
+    color: #fff;
+    font-weight: lighter;
+    padding: 1.5rem;
+}
+.footer .credit span{
+    color: var(--main-color);
 }
