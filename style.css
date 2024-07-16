@@ -428,6 +428,7 @@ section{
     line-height: 1.8;
     color: white;
     padding: 2rem 0;
+    text-transform: none;
 }
 
 .review .box-container .box .user{
@@ -526,4 +527,37 @@ section{
 }
 .blogs .box-container .box .content .title:hover{
     color:var(--main-color) ;
+}
+.blogs .box-container .box .content span{
+    color: var(--main-color);
+    display: block;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+.blogs .box-container .box .content p{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #ccc;
+    padding: 1rem 0;
+    text-transform: none;
+}
+.footer{
+    background: var(--black);
+    text-align: center;
+}
+.footer .share{
+    padding: 1rem 0;
+}
+.footer .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #fff;
+    border: var(--border);
+    margin: .3rem;
+    border-radius: 50%;
+}
+.footer .share a:hover{
+    
 }
